@@ -2,23 +2,25 @@ import { SideNavItems, SideNavSection } from '@modules/navigation/models';
 
 export const sideNavSections: SideNavSection[] = [
     {
-        text: 'CORE',
+        text: '',
         items: ['dashboard'],
     },
     {
-        text: 'INTERFACE',
-        items: ['layouts', 'pages'],
+        text: '',
+        // items: ['layouts', 'pages'],
+        items: [],
     },
     {
-        text: 'ADDONS',
-        items: ['charts', 'tables'],
+        text: '',
+        items: [ 'users', 'personalInfo', 'payments', 'claims', 'charts',],
+        // items: [ 'tables', 'payments', 'claims', 'charts',],
     },
 ];
 
 export const sideNavItems: SideNavItems = {
     dashboard: {
         icon: 'tachometer-alt',
-        text: 'Dashboard',
+        text: 'Panel',
         link: '/dashboard',
     },
     layouts: {
@@ -75,14 +77,34 @@ export const sideNavItems: SideNavItems = {
             },
         ],
     },
-    charts: {
-        icon: 'chart-area',
-        text: 'Charts',
-        link: '/charts',
-    },
     tables: {
         icon: 'table',
         text: 'Tables',
         link: '/tables',
+    },
+    users: {
+        icon: 'user',
+        text: 'Usuarios',
+        link: '/tables',
+    },
+    personalInfo: {
+        icon: 'user',
+        text: 'Mis Datos',
+        link: '/tables',
+    },
+    payments: {
+        icon: 'credit-card',
+        text: 'Pagos',
+        link: '/tables',
+    },
+    claims: {
+        icon: 'exclamation-circle',
+        text: 'Reclamos',
+        link: '/tables',
+    },
+    charts: {
+        icon: 'chart-area',
+        text: 'Reportes',
+        link: '/charts',
     },
 };
