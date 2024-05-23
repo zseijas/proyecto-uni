@@ -5,7 +5,7 @@ const routes: Routes = [
     {
         path: '',
         pathMatch: 'full',
-        redirectTo: '/dashboard',
+        redirectTo: '/auth/login',
     },
     {
         path: 'charts',
@@ -33,6 +33,11 @@ const routes: Routes = [
         path: 'tables',
         loadChildren: () =>
             import('modules/tables/tables-routing.module').then(m => m.TablesRoutingModule),
+    },
+    {
+        path: 'users',
+        loadChildren: () =>
+            import('modules/users/users-routing.module').then(m => m.UsersRoutingModule),
     },
     {
         path: 'version',
