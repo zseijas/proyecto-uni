@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "dist/sb-admin-angular",
+        "src": "dist/sb-admin-angular/browser",
         "use": "@vercel/static-build"
       }
     ],
