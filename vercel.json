@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "dist/proyecto-uni/browser",
+        "src": "dist/sb-admin-angular",
         "use": "@vercel/static-build"
       }
     ],
