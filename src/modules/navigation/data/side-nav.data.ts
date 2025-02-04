@@ -100,7 +100,7 @@ export const sideNavItems: SideNavItems = {
     claims: {
         icon: 'exclamation-circle',
         text: 'Reclamos',
-        link: '/tables',
+        link: '/claims',
     },
     charts: {
         icon: 'chart-area',

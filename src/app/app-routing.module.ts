@@ -35,6 +35,11 @@ const routes: Routes = [
             import('modules/tables/tables-routing.module').then(m => m.TablesRoutingModule),
     },
     {
+        path: 'claims',
+        loadChildren: () =>
+            import('modules/tables/tables-routing.module').then(m => m.TablesRoutingModule),
+    },
+    {
         path: 'users',
         loadChildren: () =>
             import('modules/users/users-routing.module').then(m => m.UsersRoutingModule),

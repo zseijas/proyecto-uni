@@ -12,7 +12,7 @@ export class UserService {
             id: '123',
             firstName: 'Zaid',
             lastName: 'Seijas',
-            email: 'no-reply@startbootstrap.com',
+            email: 'no-reply@sigesflo.com.ve',
         };
     }
 
