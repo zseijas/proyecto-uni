@@ -28,7 +28,7 @@ export const ROUTES: Routes = [
         canActivate: [],
         component: dashboardContainers.DashboardComponent,
     },
-    {
+    /* {
         path: 'static',
         data: {
             title: 'Dashboard Static - SB Admin Angular',
@@ -63,7 +63,7 @@ export const ROUTES: Routes = [
         } as SBRouteData,
         canActivate: [],
         component: dashboardContainers.LightComponent,
-    },
+    }, */
 ];
 
 @NgModule({
